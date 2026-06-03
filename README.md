@@ -8,11 +8,21 @@ Documenting my path from Python fundamentals to penetration testing.
 
 ---
 
+## Repos
+
+| Step | Repo | Status |
+|---|---|---|
+| 1 — Python Fundamentals | *(this repo)* | ✅ Complete |
+| 2 — Networking with Python | TBD | 🔄 In progress |
+| 3 — CTF Challenges | TBD | Not started |
+| 4 — Security+ | TBD | Not started |
+| 5 — Security Tools | TBD | Not started |
+
+---
+
 ## Step 1 — Python Fundamentals ✅
 
 **Completed:** May 2026
-
-Coming in with JavaScript experience and a CS degree, this step was about getting fluent in Python's idioms before moving into security-specific work.
 
 ### What I built
 
@@ -47,7 +57,7 @@ Coming in with JavaScript experience and a CS degree, this step was about gettin
 
 ## Step 2 — Networking with Python 🔄
 
-*In progress*
+*In progress — repo link will be added when created*
 
 - [ ] How TCP/IP works at the code level
 - [ ] Sockets — raw connections, client/server programs
