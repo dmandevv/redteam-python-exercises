@@ -13,7 +13,7 @@ Documenting my path from Python fundamentals to penetration testing.
 | Step | Repo | Status |
 |---|---|---|
 | 1 — Python Fundamentals | *(this repo)* | ✅ Complete |
-| 2 — Networking with Python | TBD | 🔄 In progress |
+| 2 — Networking with Python | [redteam-python-networking](https://github.com/dmandevv/redteam-python-networking) | 🔄 In progress |
 | 3 — CTF Challenges | TBD | Not started |
 | 4 — Security+ | TBD | Not started |
 | 5 — Security Tools | TBD | Not started |
