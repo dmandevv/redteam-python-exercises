@@ -13,7 +13,7 @@ Documenting my path from Python fundamentals to penetration testing.
 | Step | Repo | Status |
 |---|---|---|
 | 1 — Python Fundamentals | *(this repo)* | ✅ Complete |
-| 2 — Networking with Python | [redteam-python-networking](https://github.com/dmandevv/redteam-python-networking) | 🔄 In progress |
+| 2 — Networking with Python | [redteam-python-networking](https://github.com/dmandevv/redteam-python-networking) | ✅ Complete |
 | 3 — CTF Challenges | TBD | Not started |
 | 4 — Security+ | TBD | Not started |
 | 5 — Security Tools | TBD | Not started |
@@ -55,17 +55,35 @@ Documenting my path from Python fundamentals to penetration testing.
 
 ---
 
-## Step 2 — Networking with Python 🔄
+## Step 2 — Networking with Python ✅
 
-*In progress — repo link will be added when created*
+**Completed:** June 2026 — [redteam-python-networking](https://github.com/dmandevv/redteam-python-networking)
 
-- [ ] How TCP/IP works at the code level
-- [ ] Sockets — raw connections, client/server programs
-- [ ] HTTP from scratch (before using libraries)
-- [ ] Port scanning
-- [ ] Reading and parsing network data
-- [ ] DNS lookups
-- [ ] Libraries: `socket`, `requests`, `scapy`
+### What I built
+
+| # | Exercise | What it does |
+|---|----------|--------------|
+| 01 | TCP echo server | Raw socket client/server, connection handling |
+| 02 | Threaded port scanner | `ThreadPoolExecutor`, concurrent TCP connects |
+| 03 | HTTP from scratch | Raw `GET` over a socket, response parsing |
+| 04 | DNS client | UDP + TCP queries, zone transfer (AXFR), wire format parsing |
+| 05 | Scapy basics | Packet sniffing, ICMP ping, SYN scan, ARP scan, DNS query |
+| 06 | Packet injection | Forged ICMP/UDP, TCP RST injection, IP spoofing |
+| 07 | ARP spoofing + MITM | ARP cache poisoning, loopback traffic interception |
+| 08 | Scapy port scanner | SYN scan, OS fingerprinting via TTL, banner grabbing |
+
+### Key skills locked in
+
+- [x] How TCP/IP works at the code level
+- [x] Sockets — raw connections, client/server programs
+- [x] HTTP from scratch (before using libraries)
+- [x] Port scanning
+- [x] Reading and parsing network data
+- [x] DNS lookups
+- [x] Libraries: `socket`, `requests`, `scapy`
+- [x] Packet crafting and injection
+- [x] ARP spoofing and man-in-the-middle attacks
+- [x] SYN scanning and service fingerprinting
 
 ---
 
@@ -99,8 +117,8 @@ Documenting my path from Python fundamentals to penetration testing.
 
 ## Security Tools (building along the way)
 
-- [ ] Port scanner
-- [ ] Network packet sniffer
+- [x] Port scanner
+- [x] Network packet sniffer
 - [ ] Password strength checker / cracker
 - [ ] Directory/subdomain enumerator
 - [ ] Basic keylogger (lab environment only)
